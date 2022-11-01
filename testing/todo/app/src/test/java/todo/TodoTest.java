@@ -18,4 +18,16 @@ public class TodoTest {
 
         assertEquals("todo list contains added task", expectedTasks, todo.addTask("Walk the dog"));
     }
+
+    @Test public void getsTasks() {
+        Todo todo = new Todo();
+        ArrayList<String> expectedTasks = new ArrayList<String>();
+        expectedTasks.add("Walk the dog");
+        expectedTasks.add("Caress the cat");
+
+        todo.addTask("Walk the dog");
+        todo.addTask("Caress the cat");
+
+        assertEquals("Returns the task list", expectedTasks, todo.getTasks());
+    }
  }

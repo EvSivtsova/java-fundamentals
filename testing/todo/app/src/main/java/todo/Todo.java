@@ -10,4 +10,8 @@ public class Todo {
         tasks.add(task);
         return tasks;
     }
+
+    public ArrayList<String> getTasks() {
+        return tasks;
+    }
 }
