@@ -16,4 +16,5 @@ In this module, you'll first see how to write and execute basic Java programs, a
 <img src="https://github.com/EvSivtsova/java-fundamentals/blob/main/outputs/first_java_programs_output.png">
 <img src="https://github.com/EvSivtsova/java-fundamentals/blob/main/outputs/types_and_compilation_output.png">
 <img src="https://github.com/EvSivtsova/java-fundamentals/blob/main/outputs/testing_output.png">
+<img src="https://github.com/EvSivtsova/java-fundamentals/blob/main/outputs/testing_ShoppingList_output.png">
 <img src="https://github.com/EvSivtsova/java-fundamentals/blob/main/outputs/debugging_fizzbuzz_output.png">
