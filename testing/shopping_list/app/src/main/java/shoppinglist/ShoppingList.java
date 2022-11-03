@@ -3,15 +3,15 @@ package shoppinglist;
 import java.util.ArrayList;
 
 public class ShoppingList {
-    ArrayList<String> items = new ArrayList<String>();
+    ArrayList<ShoppingItem> items = new ArrayList<ShoppingItem>();
 
     public ShoppingList() {}
 
-    public ArrayList<String> getItems() {
+    public ArrayList<ShoppingItem> getItems() {
         return this.items;
     }
 
-    public void addItem(String item) {
+    public void addItem(ShoppingItem item) {
         this.items.add(item);   
     }
 
