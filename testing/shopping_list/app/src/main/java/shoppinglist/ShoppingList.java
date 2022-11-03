@@ -11,5 +11,9 @@ public class ShoppingList {
         return this.items;
     }
 
+    public void addItem(String item) {
+        this.items.add(item);   
+    }
+
     public static void main() {}
 }
