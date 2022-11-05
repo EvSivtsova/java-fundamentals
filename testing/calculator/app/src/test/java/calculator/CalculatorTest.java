@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import javax.swing.JSpinner.NumberEditor;
+
 public class CalculatorTest {
     @Test 
     public void shouldAddTwoAndTwo() {
@@ -21,5 +23,19 @@ public class CalculatorTest {
     public void shouldMultipleTwoNumbers() {
         Calculator calc = new Calculator();
         assertEquals("3 * 9 should equals 27", Integer.valueOf(27), calc.multiply(3, 9));
+    }
+
+    @Test
+    public void shouldDivideTwoNumbers() {
+        Calculator calc = new Calculator();
+        Number expectedNum = 9.0;
+        assertEquals("27 / 3 equals to 9.0", expectedNum, calc.divide(27, 3));
+    }
+
+    @Test
+    public void shouldDivideTwoNumbersDouble() {
+        Calculator calc = new Calculator();
+        Number expectedNum = 9.333333333333334;
+        assertEquals("28 / 3 equals to 9.33", expectedNum, calc.divide(28, 3));
     }
 }
