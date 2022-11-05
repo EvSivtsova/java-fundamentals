@@ -12,4 +12,8 @@ public class Calculator {
     public Integer subtract(Integer integer1, Integer integer2) {
         return integer1 - integer2;
     }
+
+    public Integer multiply(Integer integer1, Integer integer2) {
+        return integer1 * integer2;
+    }
 }
