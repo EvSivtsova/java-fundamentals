@@ -5,7 +5,11 @@ public class Calculator {
 
     }
 
-    Integer add(Integer integer1, Integer integer2) {
+    public Integer add(Integer integer1, Integer integer2) {
         return integer1 + integer2;
+    }
+
+    public Integer subtract(Integer integer1, Integer integer2) {
+        return integer1 - integer2;
     }
 }
